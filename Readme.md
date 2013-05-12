@@ -21,6 +21,7 @@ npm install component-roole
 }
 ```
 
+**builder.js**
 ```javascript
 
 var Builder = require('component-builder'),
