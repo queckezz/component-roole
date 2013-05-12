@@ -1,0 +1,23 @@
+{
+  "name": "component-stylus",
+  "version": "0.0.1",
+  "author": "Fabian Eichenberger <fabian.eichenberger@gmail.com>",
+  "description": "Transpiles roole for component",
+  "main": "index.js",
+  "repository": {
+    "type": "http",
+    "url": "https://github.com/queckezz/component-roole.git"
+  },
+  "keywords": [
+    "component",
+    "roole",
+    "builder"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "nib": "~0.9.1",
+    "stylus": "~0.32.0",
+    "debug": "~0.7.0",
+    "batch": "~0.3.0"
+  }
+}
