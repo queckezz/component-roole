@@ -37,7 +37,6 @@ module.exports = function( req, res, next ) {
   
   builder.build(function( err, res ){
     if ( err ) return next( err );
-    write( 'public/app.js', res.require + res.js );
     write( 'public/app.css', res.css );
     next();
   });
