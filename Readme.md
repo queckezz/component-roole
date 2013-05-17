@@ -1,6 +1,6 @@
 # component-roole
 
-Seemlessly use stylus in your components.
+Seemlessly use the roole pre-processor in your [components](http://www.component.io).
 
 ## Installation
 ```
@@ -27,7 +27,7 @@ npm install component-roole
 var Builder = require('component-builder'),
     write = require('fs').writeFileSync,
 
-  roole = require('component-roole');
+    roole = require('component-roole');
 
 module.exports = function( req, res, next ) {
   var builder = new Builder('.');
