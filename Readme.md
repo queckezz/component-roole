@@ -4,23 +4,12 @@ Use the awesome roole css pre-processor in your [components](http://www.componen
 
 ## Installation
 
-  $ npm install component-roole
+	$ npm install component-roole
 
 ## Usage
 
-**component.json**
-```javascript
-{
-  ...
-  "styles": [
-    "dialog.roo",
-    "navbar.roo"
-  ]
-  ...
-}
-```
+Add the roole plugin through `builder.use()`
 
-**builder.js**
 ```javascript
 var builder = new Builder('.')
 
@@ -36,7 +25,23 @@ builder.build(function (err, res) {
   write('build/build.css', res.css)
 })
 ```
+and use it in your components!
+
+```javascript
+{
+  ...
+  "styles": [
+    "dialog.roo",
+    "navbar.roo"
+  ]
+  ...
+}
+```
 
 ## Test
 
-  $ make
+	$ make
+    
+or simply run 
+
+	$ node test/build.js
