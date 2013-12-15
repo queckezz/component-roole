@@ -1,11 +1,10 @@
 # component-roole
 
-Seemlessly use the roole pre-processor in your [components](http://www.component.io).
+Use the awesome roole pre-processor in your [components](http://www.component.io).
 
 ## Installation
-```
-npm install component-roole
-```
+
+  $ npm install component-roole
 
 ## Usage
 
@@ -23,22 +22,21 @@ npm install component-roole
 
 **builder.js**
 ```javascript
+var builder = new Builder('.')
 
-var Builder = require('component-builder'),
-    write = require('fs').writeFileSync,
+builder.copyAssetsTo('build')
 
-    roole = require('component-roole');
+// Use plugin
 
-module.exports = function( req, res, next ) {
-  var builder = new Builder('.');
-  builder.copyAssetsTo('public');
+builder.use(roole)
 
-  builder.use( roole );
-  
-  builder.build(function( err, res ){
-    if ( err ) return next( err );
-    write( 'public/app.css', res.css );
-    next();
-  });
-};
+builder.build(function (err, res) {
+  if (err) throw err;
+
+  write('build/build.css', res.css)
+})
 ```
+
+## Test
+
+  $ make

@@ -1,0 +1,15 @@
+.btn {
+  display: inline-block;
+}
+
+.btn.large {
+  padding: 10px 15px;
+}
+
+.submit {
+  @mixin .btn;
+
+  @media (min-width: 768px) {
+    @mixin .btn.large;
+  }
+}

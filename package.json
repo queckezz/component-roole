@@ -16,5 +16,8 @@
   "license": "MIT",
   "dependencies": {
     "roole": "*"
+  },
+  "devDependencies": {
+    "component-builder": "~0.10.0"
   }
 }

@@ -1,0 +1,7 @@
+{
+  "name": "button",
+  "description": "Boot component. Entry point of the application.",
+  "styles": [
+    "index.roo"
+  ]
+}

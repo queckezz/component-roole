@@ -1,0 +1,10 @@
+{
+  "name": "test",
+  "description": "Root config.",
+  "paths": [
+    "."
+  ],
+  "local": [
+    "button"
+  ]
+}
