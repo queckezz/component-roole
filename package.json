@@ -1,8 +1,8 @@
 {
   "name": "component-roole",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Fabian Eichenberger <fabian.eichenberger@gmail.com>",
-  "description": "Transpiles roole for component",
+  "description": "Use the awesome roole css pre-processor in your components",
   "main": "index.js",
   "repository": {
     "type": "http",

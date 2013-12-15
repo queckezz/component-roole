@@ -1,6 +1,6 @@
 # component-roole
 
-Use the awesome roole pre-processor in your [components](http://www.component.io).
+Use the awesome roole css pre-processor in your [components](http://www.component.io).
 
 ## Installation
 
